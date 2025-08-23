@@ -3,12 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>An Integrated Product Visualisation and Ticketing System
-       | Cameron Carlyon</title>
+    <meta name="description" content="Experience seat selection with panoramic views. Get the seat that you want." />
+    <meta name="keywords" content="Emirates, airline booking, 3D visualization, seat selection, cabin view" />
+    <meta name="author" content="Cameron Carlyon" />
+    
+    <!-- Performance optimizations -->
+    <link rel="preconnect" href="https://kit.fontawesome.com" />
+    <link rel="preconnect" href="https://c.ekstatic.net" />
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+    
+    <title>An Integrated Product Visualisation and Ticketing System | Cameron Carlyon</title>
+    
     <link rel="stylesheet" href="styles.css" />
     <script
       src="https://kit.fontawesome.com/5996a0cc2a.js"
       crossorigin="anonymous"
+      defer
     ></script>
   </head>
   <body>
@@ -43,7 +53,7 @@
             </div>
             <div id="ek-nav-bar-overflow">
               <div class="ek-nav-bar-icon">
-                <a href="#"><i class="fa-solid fa-earth-europe"></i> GB </a>
+                <a href="#" class="ek-nav-bar-icon"><i class="fa-solid fa-earth-europe"></i> GB </a>
               </div>
               <div class="ek-nav-bar-icon">
                 <a href="#">
@@ -84,14 +94,14 @@
       <div class="btn"><a id="close-modal">Dismiss</a></div>
   </dialog>
     <div class="questionnaire-container">
-      <a href="https://forms.gle/L1YGgURh2XkgGWvh6" class="content-box" id="feature-available">
+      <a href="https://forms.gle/L1YGgURh2XkgGWvh6" class="content-box">
         <div>
           <h3 class="box-sub-title">Survey</h3>
           <h2 class="box-title">Pre-Production</h2>
           <p class="box-description">Participate in the Pre-Production Survey to shape the foundation of the project. Your insights will influence the preliminary development of this integrated approach to product visualisation and ticketing systems.</p>
         </div>
       </a>
-      <a href="https://forms.gle/tATkD8G4e83c3SnE9" class="content-box" id="feature-available">
+      <a href="https://forms.gle/tATkD8G4e83c3SnE9" class="content-box">
         <div>
             <h3 class="box-sub-title">Survey</h3>
             <h2 class="box-title">Production</h2>
@@ -150,8 +160,8 @@
             <p class="box-description">Read more</p>
           </div>
       </a>
-      <a class="content-box">
-        <div class="feature-unavailable">
+      <a class="content-box feature-unavailable" href="#">
+        <div>
             <h3 class="box-sub-title">Reading</h3>
             <h2 class="box-title">Documentation</h2>
             <span class="divider"></span>
@@ -171,7 +181,7 @@
             <div class="footer-information">
               <div class="copyright-disclaimer">
                 <p id="footer-disclaimer">The trademarks, logos and service marks displayed on this website are the property of The Emirates Group and their respective subsidiaries. They are used here for the purpose of reference and do not imply any affiliation with or endorsement by The Emirates Group.</p>
-                <p id="footer-copyright">© 2024 The Emirates Group. All Rights Reserved. Concept developed by <a href="https://cameroncarlyon.github.io/">Cameron Carlyon</a>.</p>
+                <p id="footer-copyright">© 2025 The Emirates Group. All Rights Reserved. Concept developed by <a href="https://cameroncarlyon.github.io/">Cameron Carlyon</a>.</p>
               </div>
               <div class="ek-footer-logo">
               <img src="assets/emirates-airline-logo.svg" alt="Emirates Airline logo" draggable="false" />
@@ -179,6 +189,6 @@
           </div>
         </div>
     </footer>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
   </body>
 </html>
