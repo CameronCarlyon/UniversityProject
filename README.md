@@ -6,4 +6,4 @@
 
 **Usage**
 
-To experience the project, (click here.)[https://cameroncarlyon.com/visualisationproject/]
+To experience the project, [please visit the project website.](https://cameroncarlyon.com/visualisationproject/)
